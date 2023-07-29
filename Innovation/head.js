@@ -173,32 +173,32 @@ $(function () {
           case 'introduction':
             $("html,body").animate({
               scrollTop: $("#mobile-section1").offset().top - headHeight
-            }, 300);
+            }, 100);
             break;
           case 'framework':
             $("html,body").animate({
               scrollTop: $("#mobile-section2").offset().top - headHeight
-            }, 300);
+            }, 100);
             break;
           case 'feature':
             $("html,body").animate({
               scrollTop: $("#mobile-section3").offset().top - headHeight
-            }, 300);
+            }, 100);
             break;
           case 'area':
             $("html,body").animate({
               scrollTop: $("#mobile-section4").offset().top - headHeight
-            }, 300);
+            }, 100);
             break;
           case 'support':
             $("html,body").animate({
               scrollTop: $("#mobile-section5").offset().top - headHeight
-            }, 300);
+            }, 100);
             break;
             case 'aboutus':
             $("html,body").animate({
               scrollTop: $("#mobile-section6").offset().top - headHeight
-            }, 300);
+            }, 100);
             break;
           default:
             break;
