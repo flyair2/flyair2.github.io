@@ -61,7 +61,6 @@
   flex-direction: column;
   align-items: center;
   padding: 0;
-  padding-top: 30px;
 }
 
 .page .pc-body .section11 .section-item > .title {
@@ -122,8 +121,8 @@
 
 .page .pc-body .section11 .section-item .container .section5-item .item-content img {
   width: 300px;
-  height: 200px;
   border-radius: 5px;
+  height: 200px;
 }
 
 .page .pc-body .section11 .section-item .container .section5-item .item-content .title {
@@ -256,6 +255,7 @@
   color: #0e0b0b; 
   text-decoration: none; /* 移除下划线 */
   line-height: 30px;
+  font-weight: 600;
 }
 .title1 a:hover {
   color: #84a8c5; 
@@ -696,6 +696,7 @@
   padding-top: 20px;
   padding-left: 40px;
   display: flex;
+  font-weight: 600;
 }
 .title11 a:hover {
   color: #84a8c5; 
@@ -1197,7 +1198,7 @@
   width: 100%;
   background-color: var(--white-color);
   height: auto;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.1rem;
 }
 
 .page .mobile-body .section51 .section-item .container  {
@@ -1453,6 +1454,11 @@
 @media (max-width: 1200px) and (min-width: 1060px) {
   .page .pc-body .section3 .section-item.section-item-feature .section-words {
     padding-left: 60px;
+}
+}
+@media (max-width: 1250px){
+.page .w500 p{
+  width: 500px;
 }
 }
 @media (max-width: 1250px) and (min-width: 925px) {
